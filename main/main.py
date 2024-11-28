@@ -1,8 +1,9 @@
 from discord import Intents, Client, Message, Forbidden
-from responses import get_response
 from datetime import datetime
+from dotenv import load_dotenv
 
-TOKEN = "MTMxMTY5NzAxNzkzMTU2MzAxOA.GAJOsi.bCcRrSitBNpS4NH5CnaV96n8R8dg0307awM7zo"
+
+TOKEN: str = load_dotenv('DISCORD_TOKEN')
 VERROLE = 1310671864024272957
 
 
