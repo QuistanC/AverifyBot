@@ -68,3 +68,4 @@ async def on_message(message: Message):
         await message.channel.send(f"An error occured: {str(e)}")
         
 client.run(TOKEN)
+#it lives...
