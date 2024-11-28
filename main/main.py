@@ -1,12 +1,8 @@
-from typing import Final
-import os
-from dotenv import load_dotenv
 from discord import Intents, Client, Message, Forbidden
 from responses import get_response
 from datetime import datetime
 
-load_dotenv()
-TOKEN: Final[str] = os.getenv('DISCORD_TOKEN')
+TOKEN = "MTMxMTY5NzAxNzkzMTU2MzAxOA.GAJOsi.bCcRrSitBNpS4NH5CnaV96n8R8dg0307awM7zo"
 VERROLE = 1310671864024272957
 
 
